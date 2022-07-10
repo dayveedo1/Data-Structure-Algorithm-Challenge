@@ -7,8 +7,9 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        System.out.println(isAnagram("HELLO!!!", "lleho% y"));
+        System.out.println(isAnagram("HELLO!!!", "lleho% "));
         System.out.println(isAnagram("RACE", "care"));
+        System.out.println(isAnagram("Kelvin", "David"));
     }
 
     public static boolean isAnagram(String x, String y){

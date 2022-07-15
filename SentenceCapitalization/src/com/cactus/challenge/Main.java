@@ -50,14 +50,8 @@ public class Main {
             strCap = String.copyValueOf(ch);
             strCapitalized.add(strCap);
         }
-
         //Join every word in the list to form our input string with the first Letter of each other capitalized
         return String.join(" ", strCapitalized);
-
-
-
-
-
     }
 
     public static String capitalizeOption(String s){
